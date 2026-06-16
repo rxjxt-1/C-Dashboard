@@ -43,4 +43,4 @@
 
 ---
 
-### Crafted with ⚡ by [RXJXT](https://guns.lol/rxjxt)
+### Crafted by [RXJXT](https://guns.lol/rxjxt)
