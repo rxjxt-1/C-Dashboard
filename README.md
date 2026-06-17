@@ -38,7 +38,7 @@
 
 ---
 
-### Crafted by [RXJXT](https://guns.lol/rxjxt)
+### Developed and coded by [RXJXT](https://guns.lol/rxjxt)
 
 ---
 
