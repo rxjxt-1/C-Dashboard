@@ -1,6 +1,6 @@
 # 🌐 C - Dashboard
 
-![Version](https://img.shields.io/badge/Version-3.0_Pro-blue.svg)
+![Version](https://img.shields.io/badge/Version-3.1_Pro-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
@@ -13,7 +13,7 @@
 * **⚡ Real-Time Speedometer:** Live download and upload speeds visualized on dynamic gauges and charts.
 * **📊 Data Usage Tracking:** Set your monthly data cap and track daily/monthly gigabytes used.
 * **🔔 Smart Notifications:** Get time-sensitive alerts when you reach 80%, 90%, and 100% of your data limit, or when an internet outage is detected.
-* **🎨 Multiple Themes:** Switch between Liquid Glass, Full AMOLED Black, Minimal White, and Gamer RWB.
+* **🎨 Multiple Themes:** Switch between Liquid Glass, Full AMOLED Black, Minimal White, Gamer RWB And Neon Cyberpunk.
 * **🛠️ Network Diagnostics:** Built-in speed test with server selection and network quality analysis for Gaming, Streaming, and Browsing.
 * **🔄 Auto-Updater:** Seamlessly check for and download new versions directly from the app.
 * **🚀 Auto-Start:** Can be configured to boot silently with Windows.
