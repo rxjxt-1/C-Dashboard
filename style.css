@@ -27,6 +27,18 @@
     --panel-bg: #141414; --inner-panel: #1a1a1a; --border-color: #ff0000;
     --accent-1: #ff0000; --accent-2: #ffffff; --meter-bg: #222222; --blur-val: none;
 }
+.theme-cyberpunk {
+    --bg-main: #09041a; --text-main: #00ffcc; --text-muted: rgba(0,255,204,0.6);
+    --panel-bg: rgba(20,10,40,0.7); --inner-panel: rgba(0,0,0,0.6); --border-color: rgba(255,0,255,0.4);
+    --accent-1: #ff00ff; --accent-2: #fcee0a; --meter-bg: rgba(255,0,255,0.15); --blur-val: blur(30px);
+}
+
+/* Cyberpunk glow effects */
+.theme-cyberpunk .meter-title, 
+.theme-cyberpunk #dl_speed_big, 
+.theme-cyberpunk #ul_speed_big {
+    text-shadow: 0 0 12px rgba(0, 255, 204, 0.6);
+}
 
 body {
     margin: 0; padding: 0; background-color: var(--bg-main); color: var(--text-main);

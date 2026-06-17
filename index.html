@@ -15,7 +15,6 @@
         <div class="blob blob3"></div>
     </div>
 
-    <!-- Outage Banner -->
     <div id="outage_banner" class="outage-alert" style="display: none;">⚠️ NO INTERNET CONNECTION DETECTED ⚠️</div>
 
     <div class="top-bar glass-panel">
@@ -30,7 +29,6 @@
         </button>
     </div>
 
-    <!-- Close Modal -->
     <div id="closeModal" class="modal">
         <div class="modal-content glass-panel" style="text-align: center; width: 340px;">
             <h3 style="margin-top: 0; font-size: 20px;">Minimize to Tray?</h3>
@@ -43,7 +41,6 @@
         </div>
     </div>
 
-    <!-- Settings Modal -->
     <div id="settingsModal" class="modal">
         <div class="modal-content glass-panel" style="width: 450px;">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
@@ -61,6 +58,7 @@
                         <option value="amoled">Full AMOLED Black</option>
                         <option value="white">Minimal White</option>
                         <option value="rwb">Red, White & Black</option>
+                        <option value="cyberpunk">Neon Cyberpunk</option>
                     </select>
                 </div>
                 <div class="input-group">
@@ -96,7 +94,7 @@
 
             <div class="input-group" style="text-align: center;">
                 <button class="glass-btn" style="width: 100%;" onclick="checkForUpdates()" id="updateBtn">Check for Updates</button>
-                <span class="helper-text" id="updateStatusText" style="margin-top: 5px;">Current Version: 3.0 Pro</span>
+                <span class="helper-text" id="updateStatusText" style="margin-top: 5px;">Current Version: 3.1 Pro</span>
             </div>
 
             <div class="modal-actions" style="margin-top: 25px;">
@@ -106,7 +104,6 @@
         </div>
     </div>
 
-    <!-- Stats Modal -->
     <div id="statsModal" class="modal">
         <div class="modal-content glass-panel" style="width: 500px;">
             <h3 style="margin-top: 0; text-align: center;">Daily Data Usage</h3>
@@ -115,20 +112,18 @@
         </div>
     </div>
 
-    <!-- Dev Modal -->
     <div id="devModal" class="modal" style="z-index: 2500;">
         <div class="modal-content glass-panel" style="text-align: center; width: 280px;">
             <div style="margin-bottom: 15px;">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent-1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
             </div>
             <h3 style="margin: 0 0 5px 0;">C - Dashboard</h3>
-            <p style="margin: 0; font-size: 13px; color: var(--text-muted);">Version 3.0 Pro</p>
+            <p style="margin: 0; font-size: 13px; color: var(--text-muted);">Version 3.1 Pro</p>
             <p style="margin: 15px 0; font-size: 14px; color: var(--text-main);">Crafted with ⚡ by <br><a href="#" onclick="openCreator()" style="color: var(--accent-1); text-decoration: none; font-weight: bold; font-size: 16px;">RXJXT</a></p>
             <button class="glass-btn primary-btn" style="margin-top: 15px;" onclick="closeModal('devModal')">Close</button>
         </div>
     </div>
 
-    <!-- History / Quality Modals -->
     <div id="historyModal" class="modal">
         <div class="modal-content glass-panel" style="width: 380px;">
             <h3 style="margin-top: 0; text-align: center; margin-bottom: 15px;">Recent Speed Tests</h3>

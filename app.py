@@ -24,7 +24,12 @@ def resource_path(relative_path):
     except Exception: base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
-DATA_FILE = "c_dashboard_data.json"
+# --- BUG FIX: Persistent Data Storage ---
+app_data_dir = os.path.join(os.getenv('LOCALAPPDATA'), 'C-Dashboard')
+if not os.path.exists(app_data_dir):
+    os.makedirs(app_data_dir)
+DATA_FILE = os.path.join(app_data_dir, 'c_dashboard_data.json')
+# ----------------------------------------
 
 def load_data():
     default_data = {
@@ -133,6 +138,9 @@ class Api:
 
     def open_creator_link(self):
         webbrowser.open("https://guns.lol/rxjxt")
+        
+    def open_url(self, url):
+        webbrowser.open(url)
 
     def minimize_app(self):
         if window: window.hide()
@@ -145,13 +153,12 @@ class Api:
         os._exit(0)
 
     def check_for_updates(self):
-        # Background thread me check karega taaki app freeze na ho
         threading.Thread(target=self._real_update_check, daemon=True).start()
 
     def _real_update_check(self):
         try:
-            repo = "rxjxt-1/C-Dashboard"  # Tera exact GitHub username aur repo
-            current_version = "v3.0.0"
+            repo = "rxjxt-1/C-Dashboard"
+            current_version = "v3.1.0" # UPGRADED TO v3.1.0
             
             url = f"https://api.github.com/repos/{repo}/releases/latest"
             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
