@@ -39,8 +39,16 @@
 ---
 
 ## 📸 Screenshots
-*(Coming Soon - Add your app screenshots here!)*
+<img width="1702" height="1289" alt="image" src="https://github.com/user-attachments/assets/7adfa7e0-0071-45a5-9e02-61e04b0ed30c" />
+<img width="1687" height="1287" alt="image" src="https://github.com/user-attachments/assets/1b621dab-bd59-4238-a63b-4e1bc735a6e4" />
+<img width="1667" height="1284" alt="image" src="https://github.com/user-attachments/assets/32ceea59-2b86-4cd6-83ab-03afc9092179" />
+<img width="1661" height="1293" alt="image" src="https://github.com/user-attachments/assets/773f8de8-ba4d-4639-9594-3a76fc3d02ec" />
+<img width="1030" height="960" alt="image" src="https://github.com/user-attachments/assets/4ebaa823-e8ae-4e23-a5bb-5b54cb38b4f1" />
+<img width="831" height="630" alt="image" src="https://github.com/user-attachments/assets/ab14dccd-533c-4aa0-bf1e-0c7fe4bae90f" />
+<img width="732" height="394" alt="image" src="https://github.com/user-attachments/assets/db94c732-4ef3-4f39-aa19-d63b96e37034" />
+<img width="1674" height="1034" alt="image" src="https://github.com/user-attachments/assets/161d53ca-1f91-4e13-a909-7dea46d1017e" />
+<img width="1694" height="621" alt="image" src="https://github.com/user-attachments/assets/d21791e2-4393-4daa-b817-b81ea435d9f5" />
 
 ---
 
-### Crafted with ⚡ by [RXJXT](https://guns.lol/rxjxt)
+### Crafted by [RXJXT](https://guns.lol/rxjxt)
