@@ -38,6 +38,10 @@
 
 ---
 
+### Crafted by [RXJXT](https://guns.lol/rxjxt)
+
+---
+
 ## 📸 Screenshots
 <img width="1702" height="1289" alt="image" src="https://github.com/user-attachments/assets/7adfa7e0-0071-45a5-9e02-61e04b0ed30c" />
 <img width="1687" height="1287" alt="image" src="https://github.com/user-attachments/assets/1b621dab-bd59-4238-a63b-4e1bc735a6e4" />
@@ -50,5 +54,3 @@
 <img width="1694" height="621" alt="image" src="https://github.com/user-attachments/assets/d21791e2-4393-4daa-b817-b81ea435d9f5" />
 
 ---
-
-### Crafted by [RXJXT](https://guns.lol/rxjxt)
